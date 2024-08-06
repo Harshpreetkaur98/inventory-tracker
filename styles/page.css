@@ -1,0 +1,74 @@
+/* Modal Styles */
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 24px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transform: translate(-50%, -50%);
+}
+
+/* Inventory Container */
+.inventory-container {
+  width: 800px;
+  border: 1px solid #333;
+}
+
+/* Header Styles */
+.header {
+  width: 800px;
+  height: 100px;
+  background-color: #ADD8E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Item Box Styles */
+.item-box {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Centered Container */
+.centered-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Add New Item Button */
+.add-item-button {
+  margin-bottom: 20px;
+}
+
+/* Typography Styles */
+.typography-center {
+  text-align: center;
+}
+
+/* Landing Page Styles */
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}

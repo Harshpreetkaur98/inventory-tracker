@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import { Box, Typography, Modal , Stack, TextField, Button} from "@mui/material";
 import { collection, query, deleteDoc, getDocs, doc, getDoc, setDoc } from "firebase/firestore";
-import '@/styles/page.css';
+import "@/styles/page.css";
 
 export default function Home() {
   const [inventory, setInventory] = useState([]);
