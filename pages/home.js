@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('/InventoryPage'); // Redirect to the InventoryPage
+    router.push('/inventory'); // Redirect to the inventory page
   }, []);
 
   return null;

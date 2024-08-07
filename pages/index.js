@@ -8,16 +8,18 @@ export default function LandingPage() {
   const router = useRouter();
 
   const handleNavigate = () => {
-    router.push('/home'); // Navigate to the home page
+    router.push('/inventory'); // Navigate to the inventory page
   };
 
   return (
     <Box className="landing-container">
-      <Typography variant="h2" color="#333">Welcome to Our Inventory Management System</Typography>
-      <Image src="/landing-image.jpg" alt="Landing Image" width={600} height={400} />
-      <Button variant="contained" onClick={handleNavigate}>
-        Go to Inventory
-      </Button>
+      <Box className="image-container">
+        <Image src="/images/landing-image.jpg" alt="Landing Image" layout="fill" objectFit="cover" />
+        <Typography variant="h2" className="overlay-text">Welcome to Our Inventory Management System</Typography>
+        <Button variant="contained" className="overlay-button" onClick={handleNavigate}>
+          Go to Inventory
+        </Button>s
+      </Box>
     </Box>
   );
 }
